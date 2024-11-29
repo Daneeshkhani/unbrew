@@ -1,0 +1,242 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgb(92,29,121);
+background: linear-gradient(90deg, rgba(92,29,121,1) 11%, rgba(102,18,238,0.9500175070028011) 78%);
+    padding: 20px 80px;
+    height: 98vh;
+    position: relative;
+
+}
+.bg-img{
+    position: absolute;
+    width: 600px;
+    right: 10%;
+    bottom: 10%;
+}
+.nav{
+    display: flex;
+
+}
+.nav-l{
+    width: 30%;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 20px;
+    color: black;
+
+}
+
+.nav-r{
+    width: 70%;
+    display: flex;
+    padding: 20px;
+    justify-content: end;
+
+}
+.nav-r>a{
+    color: white;
+    font-family: sans-serif;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.home{
+    text-decoration-line: underline;
+    text-decoration-color: green;  
+}
+.content{
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+.content>h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.content>p{
+    color: white;
+    font-family: sans-serif;
+}
+.button{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.b1{
+    color: white;
+    background-color: #1fb6fc;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #1fb6fc;
+    border-radius: 50px 50px 50px 0 ;
+    height: 70px;
+    width: 200px;
+    font-size: 18px ;
+    transition: all 0.2s linear;
+
+
+
+}
+.b1:hover{
+    color: white;
+    background-color: #1fb6fc;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #1fb6fc;
+    border-radius: 0% 50px 50px 50px ;
+    height: 70px;
+    width: 200px;
+    font-size: 18px ;
+
+
+
+}
+
+.b2{
+    color: white;
+    background-color: #ad50eb ;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ad50eb;
+    height: 70px;
+    width: 200px;
+    border-radius: 50px 50px 50px 0 ;
+    transition: all 0.2s linear;
+
+
+
+
+
+}
+.b2:hover{
+    color: white;
+    background-color: #ad50eb;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ad50eb;
+    border-radius: 0% 50px 50px 50px ;
+    height: 70px;
+    width: 200px;
+
+
+
+}
+
+.container-2{
+    display: flex;
+    padding: 20px 50px;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: rgba(128, 128, 128, 0.041);
+
+
+}
+.l-content{
+    font-family: sans-serif;
+    width: 35%;
+    padding: 20px 30px;
+}
+
+.l-p1{
+    color: rgb(42, 42, 231);
+    font-size: 15px;
+}
+.l-p2{
+    font-size: 40px;
+}
+.l-p3{
+    line-height: 1.7;
+    color: gray ;
+}
+.l-btn{
+    color: white;
+    background-color: #ad50eb ;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ad50eb;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px 50px 50px 0 ;
+    transition: all 0.2s linear;
+    margin-top: 20px;
+    font-weight: 700;
+
+}
+.l-btn:hover{
+    color: white;
+    background-color: #ad50eb ;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ad50eb;
+    height: 50px;
+    width: 150px;
+    border-radius: 0% 50px 50px 50px ;
+    transition: all 0.2s linear;
+    margin-top: 20px;
+    font-weight: 700;
+
+
+}
+
+
+
+.r-content{
+    width: 65%;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    transition: all 0.1s linear;
+    background-color: white;
+    
+}
+.card:hover{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #1fb6fc;
+    
+}
+i{
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.075);
+    color: #1fb6fc;
+}
+.card-heading{
+    font-size: 20px;
+}
+
